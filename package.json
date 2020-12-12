@@ -5,16 +5,13 @@
   "license": "MIT",
   "scripts": {
     "start": "node server/server.js",
-    "install": "cd client && yarn",
+    "install": "cd client && npm i",
     "build": "cd client && npm run build",
     "heroku-postbuild": "npm run build"
   },
   "dependencies": {
-    "cd": "^0.3.3",
-    "client": "0.0.1",
     "concurrently": "^5.3.0",
     "express": "^4.17.1",
-    "mongoose": "^5.11.7",
-    "yarn": "^1.22.10"
+    "mongoose": "^5.11.7"
   }
 }
